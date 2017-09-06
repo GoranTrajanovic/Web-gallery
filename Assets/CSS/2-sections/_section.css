@@ -1,0 +1,93 @@
+section {
+  width: 65%;
+  height: auto;
+  margin: auto;
+  padding-top: 60px; }
+  section .hr {
+    height: 1px;
+    width: 75%;
+    background: #ff6666; }
+  section h2 {
+    font-size: 2rem;
+    color: #ff5252;
+    padding-left: 30px;
+    letter-spacing: 1.5px; }
+  section h4 {
+    padding-top: 5rem;
+    letter-spacing: 1.5px; }
+    section h4 a {
+      font-size: 2rem;
+      text-decoration: none;
+      color: #ff3333; }
+    section h4 a:hover {
+      text-decoration: underline;
+      color: #ff4d4d; }
+  section ul {
+    padding-top: 30px; }
+    section ul li:before {
+      content: "\02756";
+      color: #ff5252;
+      padding-right: 10px; }
+    section ul li {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      padding-bottom: 10px; }
+
+@media (max-width: 1400px) {
+  section .hr {
+    width: 100%; } }
+.subsection {
+  overflow: hidden; }
+
+.sec_img {
+  height: 19rem;
+  width: 29rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
+
+.sec_img:not(.sec_image_1, .sec_image_2) {
+  margin-left: 2rem; }
+
+.sec_img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05); }
+
+.sec_image_1 {
+  width: 22rem;
+  margin-left: 20px; }
+
+figure {
+  width: 29rem;
+  height: 16rem;
+  margin-top: 60px;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden; }
+
+.sec_image_1 {
+  background-image: url(../Images/sections/NOVO/journey_new.jpg); }
+
+.sec_image_2 {
+  background-image: url(../Images/sections/NOVO/bajadera_new.jpg); }
+
+.sec_image_3 {
+  background-image: url(../Images/sections/kolaci/energetske_bombice.jpg); }
+
+.sec_image_4 {
+  background-image: url(../Images/sections/kolaci/brownie.jpg); }
+
+.sec_image_5 {
+  background-image: url(../Images/sections/roba/doti.jpg); }
+
+.sec_image_6 {
+  background-image: url(../Images/sections/roba/sari.jpg); }
+
+.sec_image_7 {
+  background-image: url(../Images/sections/slano/somosa.jpg); }
+
+.sec_image_8 {
+  background-image: url(../Images/sections/slano/pizza.jpg); }

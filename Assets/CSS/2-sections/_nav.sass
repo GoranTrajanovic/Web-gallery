@@ -1,0 +1,81 @@
+//NAv
+.nav-wrap
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	z-index: 999
+	padding: 1.5rem
+	display: -ms-flexbox
+	display: flex
+	-ms-flex-pack: justify
+	justify-content: space-between
+	-ms-flex-align: center
+	align-items: center
+	transition: all 0.5s ease
+	a
+		color: white
+		transition: all 0.5s ease
+		letter-spacing: 0.8px
+	a:hover
+		text-decoration: underline !important
+	
+
+
+
+nav 
+	display: block
+.main-navigation-desktop
+	margin-left: auto
+	margin-top: 0
+	-ms-flex-preferred-size: 71rem
+	flex-basis: 75rem
+	padding-right: 20px
+	#menu-main-navigation
+		display: flex
+		>li
+			flex-grow: 1
+			text-align: right
+			position: relative
+			a
+				font-size: 1.6rem
+				text-transform: uppercase
+				text-decoration: none
+				z-index: -1
+
+				
+//STICKY NAV 
+.sticky
+	background: white
+	border-bottom: 1px solid #ff6666
+.nav-wrap.sticky li 
+	a, .modal-trigger
+		color: #444653
+	a:hover, .modal-trigger:hover
+		color: darken(#444653, 25%)
+		text-decoration: underline !important
+
+//LOGO
+
+.nav-wrap .logo 
+	img
+		display: block
+		
+ol, ul
+	list-style: none
+
+@media screen and (max-width: 1600px)
+
+.nav-wrap .logo
+	max-width: 27rem
+	padding-right: 40px
+	width: 32rem
+	margin-top: 0
+	opacity: 1
+	float: none
+	display: flex
+	align-items: center
+
+.nav-wrap .logo
+	>a
+		padding-left: 8px

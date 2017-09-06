@@ -1,0 +1,40 @@
+section {
+  width: 100%;
+  /* Small devices (tablets, 768px and up) */ }
+  section .hr {
+    height: 1px;
+    width: 75%;
+    background: #ff6666; }
+  section h2 {
+    font-size: 2rem;
+    color: #ff5252;
+    padding-left: 30px;
+    letter-spacing: 1.5px;
+    line-height: 40px; }
+  section .section-content {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-right: 20px; }
+    section .section-content .item {
+      width: 20%;
+      margin: 20px;
+      border: 1px solid #cacaca;
+      border-radius: 3px;
+      height: 200px;
+      padding: 5px; }
+      section .section-content .item .image {
+        width: 100%;
+        height: 100px;
+        background: green; }
+
+@media (max-width: 1350px) {
+  section .section-content .item {
+    width: 35%; } }

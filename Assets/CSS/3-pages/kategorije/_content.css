@@ -1,0 +1,9 @@
+.content {
+  height: 120rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-start; }

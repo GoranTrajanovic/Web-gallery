@@ -1,0 +1,70 @@
+aside {
+	border-right: 1px solid #ff6666;
+	border-radius: 3px;
+	width: 17%;
+	margin-right: 60px;
+	margin-top: 60px;
+}
+
+aside a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+aside li a {
+    display: block;
+    padding-left: 15px;
+	background: lighten(#ff6666,10%);
+    border-bottom: 1px solid darken(#ff6666, 10%);
+    text-decoration: none;
+    color: #000;
+	margin-right: 3px;
+}
+
+// active class controled in main.js
+aside li a:hover, aside li a.active {
+    background: #ff6666;
+    color: #fff;
+}
+
+aside li ul {
+    display: none; // used to hide sub-menus
+}
+aside li ul li a {
+    padding-left: 35px;
+    background: lighten(#ff6666, 22%);
+    border-bottom: 1px dotted lighten(#ff6666, 10%);
+	display: flex;
+    align-items: center;
+}
+
+aside li, aside ul li{
+	list-style-type: none;
+}
+
+aside li ul li ul a{
+	background: white;
+	padding-left: 45px;
+}
+
+aside >li > ul > li > a.active:before{
+	content: "\02796 \00a0";
+	font-size: 10px;
+	padding-right: 3px;
+}
+aside > li > ul > li > a:before{
+	content: "\02795 \00a0";
+	font-size: 10px;
+	padding-right: 3px;
+}
+
+
+@media (max-width: 1600px) { 
+	aside{
+		width: 25%;
+
+	}
+}
+
+
+
